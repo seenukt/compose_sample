@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.sidenavdrawer">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".Applications"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SideNavDrawer"
+        tools:targetApi="31">
+        <activity
+            android:name=".box_card.BoxActivity"
+            android:exported="true"
+            android:label="@string/title_activity_main"
+            android:theme="@style/Theme.SideNavDrawer">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".constraintactivity.ConstraintActivity"
+            android:exported="true"
+            android:label="@string/title_activity_constraint"
+            android:theme="@style/Theme.SideNavDrawer"/>
+        <activity
+            android:name=".signup.SignUpActivity"
+            android:exported="true"
+            android:hardwareAccelerated="true"
+            android:label="@string/title_activity_sign_up"
+            android:theme="@style/Theme.SideNavDrawer"
+            android:windowSoftInputMode="stateVisible|adjustResize" />
+        <activity
+            android:name=".apicall.ApiActivity"
+            android:exported="true"
+            android:label="@string/title_activity_api"
+            android:theme="@style/Theme.SideNavDrawer" />
+        <activity
+            android:name=".test.Main1Activity"
+            android:exported="false"
+            android:label="@string/title_activity_main1"
+            android:theme="@style/Theme.SideNavDrawer" />
+        <activity
+            android:name=".bottomnav.BottomNavActivity"
+            android:exported="true"
+            android:label="@string/title_activity_bottom_nav"
+            android:theme="@style/Theme.SideNavDrawer" />
+    </application>
+
+</manifest>
