@@ -5,6 +5,7 @@
       <map>
         <entry key="app/src/main/res/drawable/ic_email_file.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/ic_tick.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_classic_compose.xml" value="0.24717514124293785" />
       </map>
     </option>
   </component>

@@ -17,21 +17,25 @@
         android:theme="@style/Theme.SideNavDrawer"
         tools:targetApi="31">
         <activity
+            android:name=".classic_android_compose.ClassicComposeActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+
+        </activity>
+        <activity
             android:name=".box_card.BoxActivity"
             android:exported="true"
             android:label="@string/title_activity_main"
-            android:theme="@style/Theme.SideNavDrawer">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:theme="@style/Theme.SideNavDrawer"/>
         <activity
             android:name=".constraintactivity.ConstraintActivity"
             android:exported="true"
             android:label="@string/title_activity_constraint"
-            android:theme="@style/Theme.SideNavDrawer"/>
+            android:theme="@style/Theme.SideNavDrawer" />
         <activity
             android:name=".signup.SignUpActivity"
             android:exported="true"

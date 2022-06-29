@@ -48,6 +48,21 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/sidenavdrawer/classic_andriod_compose/ClassicComposeActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/sidenavdrawer/classic_android_compose/ClassicComposeActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/sidenavdrawer/classic_android_compose/ComposeViewFragment.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/com/example/sidenavdrawer/constraintactivity/ConstraintActivity.kt">
           <value>
             <set />
@@ -108,12 +123,22 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/activity_classic_compose.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/res/values/colors.xml">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/app/src/main/res/values/themes.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/build.gradle">
           <value>
             <set />
           </value>
@@ -129,6 +154,11 @@
           </value>
         </entry>
         <entry key="$USER_HOME$/Desktop/equitas/app/src/main/java/com/m2p/kyc/dashboardkyc/ui/pendingkyc/PendingKycFragment.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Downloads/AndroidExampleCarousel-master/app/src/main/AndroidManifest.xml">
           <value>
             <set />
           </value>
